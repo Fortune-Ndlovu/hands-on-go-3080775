@@ -1,9 +1,9 @@
 // packages/visibility/main.go
 package main
 
-import "fmt"
+import "fmt" 
 
 func main() {
-	fmt.Println("Hello Gopher!")
+	fmt.Println("Hello Fortune!")
 	// fmt.newPrinter()
 }
