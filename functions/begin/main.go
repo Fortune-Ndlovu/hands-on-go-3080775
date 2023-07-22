@@ -10,7 +10,9 @@ func greet() string {
 }
 
 // greetWithName returns a greeting with the name
-//
+func greetWithName(name string) string {
+	return "Hello, " + name + "!"
+}
 
 // greetWithName returns a greeting with the name and age of the person
 //
@@ -21,10 +23,10 @@ func greet() string {
 
 func main() {
 	// invoke greet function
-	fmt.Println(greet())
+	// fmt.Println(greet())
 
 	// invoke greetWithName function
-	// fmt.Println(greetWithName("Toni"))
+	fmt.Println(greetWithName("Fortune"))
 
 	// invoke divide function
 	// fmt.Println(divide(10, 2))
