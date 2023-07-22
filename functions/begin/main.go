@@ -1,8 +1,13 @@
 // functions/begin/main.go
 package main
 
+// importing the fmt package
+import "fmt"
+
 // simple greet function
-//
+func greet() string {
+	return "Hello!"
+}
 
 // greetWithName returns a greeting with the name
 //
@@ -16,7 +21,7 @@ package main
 
 func main() {
 	// invoke greet function
-	// fmt.Println(greet())
+	fmt.Println(greet())
 
 	// invoke greetWithName function
 	// fmt.Println(greetWithName("Toni"))
