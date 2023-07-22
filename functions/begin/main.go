@@ -2,7 +2,10 @@
 package main
 
 // importing the fmt package
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 // simple greet function
 func greet() string {
@@ -14,8 +17,11 @@ func greetWithName(name string) string {
 	return "Hello, " + name + "!"
 }
 
-// greetWithName returns a greeting with the name and age of the person
-//
+// greetWithNameAndAge returns a greeting with the name and age of the person
+func greetWithNameAndAge(name string, age int) (greeting string) {
+	greeting = "Hello, my name is " + name + " and I am " + strconv.Itoa(age) + "years old."
+	return
+}
 
 // divide divides two numbers and returns the result
 // if the second number is zero, it returns  error
@@ -26,7 +32,7 @@ func main() {
 	// fmt.Println(greet())
 
 	// invoke greetWithName function
-	fmt.Println(greetWithName("Fortune"))
+	// fmt.Println(greetWithName("Fortune"))
 
 	// invoke divide function
 	// fmt.Println(divide(10, 2))
