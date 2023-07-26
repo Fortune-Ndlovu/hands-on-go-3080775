@@ -14,7 +14,7 @@ func (a author) fullName() string {
 }
 
 // changeName changes the first and last name of the author
-func (a author) changeName(first, last string) {
+func (a *author) changeName(first, last string) {
 	a.first = first
 	a.last = last
 }
@@ -30,5 +30,5 @@ func main() {
 	// call changeName to update name of author
 	a.changeName("Mary", "Twain")
 
-	// fmt.Println(a.fullName())
+	fmt.Println(a.fullName())
 }
