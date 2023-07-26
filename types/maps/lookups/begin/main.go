@@ -12,7 +12,7 @@ func main() {
 		"ma": {name: "Marcus Aurelius"},
 	}
 
-	// read the value for a non-existent key
+	// read the value for a non-existent KEY
 	fmt.Println("JR: ", authors["jr"])
 
 	// check when a key is present in the map
