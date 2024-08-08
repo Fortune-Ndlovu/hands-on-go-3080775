@@ -1,5 +1,6 @@
 // types/constants/begin/main.go
 package main
+
 import (
 	"fmt"
 	"unicode"

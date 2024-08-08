@@ -5,14 +5,14 @@ import "fmt"
 
 // define a struct type for author
 type author struct {
-	first, last string 
+	first, last string
 }
 
 func main() {
 	// intialize author
-	a := author {
+	a := author{
 		first: "James",
-		last: "Tom",
+		last:  "Tom",
 	}
 
 	// print the author

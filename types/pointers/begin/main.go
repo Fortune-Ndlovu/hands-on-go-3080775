@@ -5,15 +5,15 @@ import "fmt"
 
 func main() {
 	// create a variable of type *T where T is an int
-  var a *int
+	var a *int
 
 	// declare and assign `b` variable of type int
-  b := 100
+	b := 100
 
 	// assign the address of b to a
-  a = &b
+	a = &b
 	// print out the value of a which is the address of b
-  fmt.Print(a)
+	fmt.Print(a)
 
 	// print out the value at the address of b
 	fmt.Println(*a)
