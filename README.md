@@ -1,5 +1,5 @@
 # Hands-On Introduction: Go 
-This is the repository for the LinkedIn Learning course Hands-On Introduction: Go. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for Learning Go Hands-On.
 
 ![1666987472956](https://user-images.githubusercontent.com/25848438/200744646-42fb8490-7394-4646-9771-62c602c9a77c.jpeg)
 
